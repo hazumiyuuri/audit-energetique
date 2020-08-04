@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: URL('./IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: URL('./IBMPlexSans-Bold.ttf') format('truetype');
+}

@@ -1,0 +1,41 @@
+$sidebar__width: 325px;
+
+.app__sidebar {
+    position: fixed;
+    overflow-y: auto;
+    height: 100vh;
+    width: $sidebar__width;
+    top: 0;
+    left: 0;
+    background-color: #1E425E;
+    color: white;
+
+    .app_brand {
+        padding: 25px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'IBM Plex Sans';
+        text-transform: uppercase;
+    }
+
+    .menu__items {
+        padding: 13px 25px;
+        color: white;
+
+        &:hover {
+            opacity: .75;
+        }
+    }
+}
+
+.app_container {
+    margin-left: $sidebar__width + 25px;
+    padding: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .app_container {
+        margin-left: 0;
+        padding: 20px;
+    }
+}

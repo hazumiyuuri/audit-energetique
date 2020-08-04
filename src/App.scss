@@ -1,0 +1,19 @@
+@import '~tailwindcss/dist/base.css';
+@import '~tailwindcss/dist/utilities.css';
+@import '~tailwindcss/dist/components.css';
+
+body {
+  font-family: 'Arial';
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.error-text {
+  color: red;
+  margin-top: 3px;
+}
